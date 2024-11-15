@@ -1,3 +1,4 @@
+//Taller modificar código
 #include <stdio.h>
 #include "funciones.h"
 
