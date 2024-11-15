@@ -30,11 +30,11 @@ int main (int argc, char *argv[]) {
     perimetro(&p2, &s2, a, d, e); 
     area2 = area(s2, a, d, e);
 
-    perimetro(&p3, &s3, b, e, f); 
-    area3 = area(s3, b, e, f);
+    perimetro(&p3, &s3, c, e, f); 
+    area3 = area(s3, c, e, f);
 
-    perimetro(&p4, &s4, c, d, f); 
-    area4 = area(s4, c, d, f);
+    perimetro(&p4, &s4, d, f, b); 
+    area4 = area(s4, d, f, b);
     
     perimetro_total = a + b + c + d + e + f;
 
